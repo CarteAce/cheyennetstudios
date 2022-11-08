@@ -5,9 +5,6 @@
     margin: 0;
 }
 
-
-
-
     html, body {
         margin:0;
         background-color:white;
@@ -98,51 +95,51 @@
 
 
 /* -- projects ------------------------------------------------------------------------------*/
-.projectText {
- height: 20px;	
- overflow: hidden;
- position: relative;
- border-left: 0px;
-}
-.projectText h3 {
- font-size: 1em;
- color: black;
- position: absolute;
- width: 450%;
- height: 100%;
- margin: 0;
- border-left: 0px;
- line-height: 20px;
- text-align: center;
+  .projectText {
+  height: 20px;	
+  overflow: hidden;
+  position: relative;
+  border-left: 0px;
+  }
+  .projectText h3 {
+  font-size: 1em;
+  color: black;
+  position: absolute;
+  width: 450%;
+  height: 100%;
+  margin: 0;
+  border-left: 0px;
+  line-height: 20px;
+  text-align: center;
 
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
 
- -moz-animation: projectText 25s linear infinite;
- -webkit-animation: projectText 25s linear infinite;
- animation: projectText 25s linear infinite;
-}
-@-moz-keyframes projectText {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes projectText {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes projectText {
- 0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 
- }
-}
+  -moz-animation: projectText 25s linear infinite;
+  -webkit-animation: projectText 25s linear infinite;
+  animation: projectText 25s linear infinite;
+  }
+  @-moz-keyframes projectText {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes projectText {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes projectText {
+  0%   { 
+  -moz-transform: translateX(100%); /* Firefox bug fix */
+  -webkit-transform: translateX(100%); /* Firefox bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Firefox bug fix */
+  -webkit-transform: translateX(-100%); /* Firefox bug fix */
+  transform: translateX(-100%); 
+  }
+  }
 
 
 /* -- projects ------------------------------------------------------------------------------*/
@@ -832,95 +829,95 @@
 
 
 /* -- projects ------------------------------------------------------------------------------*/
-.projectText {
-height: 20px;	
-overflow: hidden;
-position: relative;
-border-left: 0px;
-}
-.projectText h3 {
-font-size: 1em;
-color: black;
-position: absolute;
-width: 450%;
-height: 100%;
-margin: 0;
-border-left: 0px;
-line-height: 20px;
-text-align: center;
+    .projectText {
+    height: 20px;	
+    overflow: hidden;
+    position: relative;
+    border-left: 0px;
+    }
+    .projectText h3 {
+    font-size: 1em;
+    color: black;
+    position: absolute;
+    width: 450%;
+    height: 100%;
+    margin: 0;
+    border-left: 0px;
+    line-height: 20px;
+    text-align: center;
 
--moz-transform:translateX(100%);
--webkit-transform:translateX(100%);	
-transform:translateX(100%);
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
 
--moz-animation: projectText 25s linear infinite;
--webkit-animation: projectText 25s linear infinite;
-animation: projectText 25s linear infinite;
-}
-@-moz-keyframes projectText {
-0%   { -moz-transform: translateX(100%); }
-100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes projectText {
-0%   { -webkit-transform: translateX(100%); }
-100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes projectText {
-0%   { 
--moz-transform: translateX(100%); /* Firefox bug fix */
--webkit-transform: translateX(100%); /* Firefox bug fix */
-transform: translateX(100%); 		
-}
-100% { 
--moz-transform: translateX(-100%); /* Firefox bug fix */
--webkit-transform: translateX(-100%); /* Firefox bug fix */
-transform: translateX(-100%); 
-}
-}
+    -moz-animation: projectText 25s linear infinite;
+    -webkit-animation: projectText 25s linear infinite;
+    animation: projectText 25s linear infinite;
+    }
+    @-moz-keyframes projectText {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes projectText {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes projectText {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+    }
 
 
-/* -- projects ------------------------------------------------------------------------------*/
-.btn-group button {
-background-color: transparent;
-border: 1px solid transparent;
-color: black;
-padding: 5px 4px;
-cursor: pointer;
-width: 100%;
-display: block;
-text-align: left;
-display: inline-block;
-}
-.btn-group button img{
-width: 15px;
-display: inline-block;
-}
-.btn-group button h4{
-display: inline-block;
-font-size: 11px;
-}
-.btn-group button:not(:last-child) {
-border-bottom: none; 
-}
-.btn-group button:hover {
-color: #9FB57A;
-}
+  /* -- projects ------------------------------------------------------------------------------*/
+  .btn-group button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: black;
+  padding: 0px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  text-align: left;
+  display: inline-block;
+  }
+  .btn-group button img{
+  width: 15px;
+  display: inline-block;
+  }
+  .btn-group button h4{
+  display: inline-block;
+  font-size: 11px;
+  }
+  .btn-group button:not(:last-child) {
+  border-bottom: none; 
+  }
+  .btn-group button:hover {
+  color: #9FB57A;
+  }
 
 /* -- about me ------------------------------------------------------------------------------*/
-.item6{
-font-size: 14.5px;
-display: inline;
-}
+  .item6{
+  font-size: 14.5px;
+  display: inline;
+  }
 
-.item5 h4{
-display: inline-block;
-}
+  .item5 h4{
+  display: inline-block;
+  }
 
-.load{
-width: 30px;
-display: inline-block;
-margin-left: 4px;
-}
+  .load{
+  width: 30px;
+  display: inline-block;
+  margin-left: 4px;
+  }
 
 
 /* -- project images ------------------------------------------------------------------------------*/
@@ -1424,6 +1421,11 @@ width: 100%;
   grid-template-columns: 40% 50%;
 }
 
+.swiper {
+  width: 800px;
+  height: 100%;
+}
+
 /* -- www stying ------------------------------------------------------------------------------*/
 
 .box1 img{
@@ -1644,7 +1646,7 @@ iframe{
 }
 
 .swiper {
-  width: 100%;
+  width: 700px;
   height: 100%;
 }
 
