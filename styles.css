@@ -1304,7 +1304,12 @@ width: 110px;
 }
 
 .box10 .myer-vid{
-margin-left: 12.5%;
+margin-left: 15%;
+}
+
+iframe{
+  width: 900px;
+  height: 750px;
 }
 
 
