@@ -1095,7 +1095,7 @@ iframe{
 @media only screen and (max-width:1920px){
 
   .grid{
-    margin: 60px 50px 10px 50px;
+    margin: 40px 50px 10px 50px;
     display: grid;
     grid-template-columns: 30% 65%;
     grid-template-rows: 12vh 5vh 30vh 5vh 30vh 5vh;
