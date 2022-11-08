@@ -6,37 +6,6 @@
 }
 
 
-.swiper {
-  width: 1300px;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 
     html, body {
@@ -67,12 +36,13 @@
     a:active { text-decoration: none; }
     a:hover { color: #9FB57A; }
 
+    
 /* -- grid ------------------------------------------------------------------------------*/
 
      .grid{
         margin: 40px 50px 10px 50px;
         display: grid;
-        grid-template-columns: 20% 70%;
+        grid-template-columns: 30% 65%;
         grid-template-rows: 100px 35px 200px 35px 250px 50px;
         grid-row-gap: 10px;
         grid-column-gap: 30px;
@@ -254,6 +224,55 @@
   display: inline;
 }
 
+
+/* -- contact stying ------------------------------------------------------------------------------*/
+
+.icon{
+  width: 18px;
+  height: 14px;
+  display: inline-block;
+  margin-bottom: -1px;
+}
+
+.icon2{
+  width: 20px;
+  height: 14px;
+  margin-bottom: -1px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.icon1{
+  width: 16px;
+  margin-bottom: -1px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.item7 h5{
+  font-size: 14px;
+  display: inline-block;
+}
+
+.item7 h4{
+  display: inline;
+  padding: 0 2px 0 2px;
+}
+
+.socials{
+  position: absolute;
+  display: inline-block;
+  right: 5%;
+  margin-bottom: 20px;
+}
+
+/* -- back to top ------------------------------------------------------------------------------*/
+.backtotopimg{
+  width: 32px;
+  margin-left: 90%;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
 
 /* -- project grid ------------------------------------------------------------------------------*/
 .main-box {
@@ -557,46 +576,6 @@
   margin-left: 12.5%;
 }
 
-/* -- contact stying ------------------------------------------------------------------------------*/
-
-.icon{
-  width: 18px;
-  height: 14px;
-  display: inline-block;
-  margin-bottom: -1px;
-}
-
-.icon2{
-  width: 20px;
-  height: 14px;
-  margin-bottom: -1px;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.icon1{
-  width: 16px;
-  margin-bottom: -1px;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.item7 h5{
-  font-size: 14px;
-  display: inline-block;
-}
-
-.item7 h4{
-  display: inline;
-  padding: 0 2px 0 2px;
-}
-
-.socials{
-  position: absolute;
-  display: inline-block;
-  right: 5%;
-  margin-bottom: 20px;
-}
 
 /* -- second slice cafe stying ------------------------------------------------------------------------------*/
 
@@ -700,13 +679,418 @@
   width: 100%;
 }
 
-/* -- back to top ------------------------------------------------------------------------------*/
-.backtotopimg{
-  width: 32px;
-  margin-left: 90%;
-  margin-top: -10px;
+/* -- desktop ------------------------------------------------------------------------------*/
+/* @media only screen and (max-width:4480px){
+  -- grid ------------------------------------------------------------------------------
+
+.grid{
+  margin: 80px 50px 10px 50px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  grid-template-rows: 15vh 5vh 32vh 5vh 30vh 5vh;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+}
+
+-- logo ------------------------------------------------------------------------------
+.logo{
+  margin-top: 5%;
+  width: 50%;
+}
+
+
+-- projects ------------------------------------------------------------------------------
+.projectText {
+height: 60px;	
+overflow: hidden;
+position: relative;
+border-left: 0px;
+}
+.projectText h3 {
+font-size: 3em;
+color: black;
+position: absolute;
+width: 450%;
+height: 50%;
+line-height: 60px;
+}
+
+
+-- projects ------------------------------------------------------------------------------
+.btn-group button img{
+width: 5%;
+display: inline-block;
+margin-left: 5%;
+}
+.btn-group button h4{
+display: inline-block;
+font-size: 3em;
+margin-left: 5%;
+margin-top: 5%;
+}
+.btn-group button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: black;
+  padding: 5px 4px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  text-align: left;
+  display: inline-block;
+}
+
+-- projects grid------------------------------------------------------------------------------
+
+.main-box {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 80vh 10vh 25vh 20vh 55vh;
+  margin: 40px 50px 10px 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+}
+
+-- about me ------------------------------------------------------------------------------
+.item6{
+  font-size: 3em;
+  display: inline;
+  margin-left: 5%;
+}
+
+.load{
+width: 10%;
+display: inline-block;
+margin-left: 2%;
+}
+
+.item5 h4{
+margin-top: 1%;
+font-size: 3em;
+}
+
+.icon{
+  width: 1.5%;
+  height: 1%;
+  display: inline-block;
+  margin-bottom: -1px;
+  margin-right: .5%;
+}
+
+.icon2{
+  width: 1.5%;
+  height: 1%;
+  margin-bottom: -1px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: .5%;
+}
+
+.icon1{
+  width: 1%;
+  margin-bottom: -1px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: .5%;
+}
+
+.item7 h5{
+  font-size: 2em;
+  display: inline-block;
+}
+
+.item7 h4{
+  display: inline;
+  padding: 0 2px 0 2px;
+}
+
+.socials{
+  position: absolute;
+  display: inline-block;
+  right: 0%;
+  margin-bottom: 5%;
+}
+
+-- www stying ------------------------------------------------------------------------------
+
+.swiper {
+  width: 2040px;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  Center slide text vertically
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dot{
+  width: 3em;
+  display: inline;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+h2{
+  font-size: 4em;
+}
+h3{
+  font-size: 3.5em;
+}
+h4{
+  font-size: 2em;
+}
+h5{
+  font-size: 3em;
+}
+h6{
+  font-size: 2em;
+}
+
+.box3 p, .box4 p, .box5 p, .box6 p, .box7 p, .box8 p, .box9 p, .box10 p, .box12 p, .box11 p{
+  font-size: 3em;
+  line-height: 2em;
+}
+
+.box3 h5{
+  margin-left: 5%;
+}
+
+.box2 h1{
+  margin-left: 0px;
+  font-size: 5em;
+  margin-top: 2%;
+} 
+
+.months, .role{
+  margin-left: 5%;
+}
+
+.box4 h5, .box6 h5, .box4 p{
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.text2{
+  margin-left: 5%;
+}
+
+.clickhere{
+  width: 10%;
+  margin-top: 0%;
+  margin-left: 410px;
+}
+
+.box12 .dwd-btn{
+  margin-top: 1%;
+  margin-left: 440px;
   margin-bottom: 10px;
 }
+
+.backtohome{
+  display: inline;
+  margin-left: 80px;
+  background-color: transparent;
+  border: transparent;
+  color: black;
+}
+
+.backtohome img{
+  width: 1%;  
+  margin-top: 2%;
+  margin-right: .5%;
+}
+
+.box2 h1{
+  width: 1250px;
+  margin-left: 100px;
+  border-right: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes typewriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 1250px;
+  }
+}
+
+-- back to top ------------------------------------------------------------------------------
+.backtotopimg{
+  width: 3%;
+  margin-left: 90%;
+  margin-top: -10px;
+  margin-bottom: 1%;
+}
+
+-- sv stying ------------------------------------------------------------------------------
+
+.box9 .sv-wire{
+  width: 100%;
+  margin-top: 0px;
+}
+
+.box10 img{
+  margin-bottom: 30px;
+}
+
+.sus-type h1{
+  width: 1500px;
+}
+
+@keyframes suswriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 1500px;
+  }
+}
+
+@keyframes blink{
+  from{
+    border-right-color: black;
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+
+-- myer stying ------------------------------------------------------------------------------
+.myer-type h1{
+  width: 310px;
+  border-right: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes myerwriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 310px;
+  }
+}
+
+.box10 .myer-vid{
+  margin-left: 12.5%;
+}
+
+iframe{
+  width: 75%;
+  height: 100em;
+}
+
+-- second slice cafe stying ------------------------------------------------------------------------------
+
+.cafe-type h1{
+  width: 1200px;
+  border-right: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cafe-animation{
+  animation: cafewriter 4s steps(40) 1s 1 normal both,
+  blink 500ms steps(50) infinite normal;
+}
+
+@keyframes cafewriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 1200px;
+  }
+}
+
+.second-box{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 80vh 15vh 15vh 25vh 20vh 75vh 10vh 100vh;
+  margin: 40px 50px 10px 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+}
+
+.sscbox2{
+  border-bottom: solid 1px #7E8B7E;
+}
+.sscbox3{
+  border-bottom: none;
+}
+
+.sscbox1{
+  border-bottom: none;
+}
+
+.sscheader{
+  margin-top: 30px;
+}
+
+-- zine stying ------------------------------------------------------------------------------
+.zine-type h1{
+  width: 665px;
+  border-right: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+@keyframes zinewriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 665px;
+  }
+}
+
+.zine-box {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 100px;
+  margin: 40px 50px 10px 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px;
+}
+
+.clickhere2{
+  width: 15%;
+  margin-top: -0px;
+  margin-left: 200px;
+}
+
+.zinepics{
+  width: 100%;
+}
+} */
 
 /* -- laptop ------------------------------------------------------------------------------*/
 @media only screen and (max-width:1024px){
