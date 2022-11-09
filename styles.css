@@ -677,13 +677,13 @@
 }
 
 /* -- desktop ------------------------------------------------------------------------------*/
-@media only screen and (max-width:1920px){
+@media only screen and (max-width:2520px){
 
   .grid{
     margin: 40px 50px 10px 50px;
     display: grid;
     grid-template-columns: 30% 65%;
-    grid-template-rows: 12vh 5vh 30vh 5vh 30vh 5vh;
+    grid-template-rows: 12vh 5vh 37vh 5vh 35vh 5vh;
     grid-row-gap: 10px;
     grid-column-gap: 30px;
   }
