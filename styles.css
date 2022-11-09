@@ -777,7 +777,7 @@
   .second-box{
     display: grid;
     grid-template-columns: 30% 60%;
-    grid-template-rows: 80vh 15vh 15vh 25vh 110vh 0vh 10vh 110vh;
+    grid-template-rows: 80vh 15vh 15vh 25vh 120vh 0vh 10vh 130vh;
     margin: 40px 50px 10px 50px;
     grid-row-gap: 10px;
     grid-column-gap: 30px;
