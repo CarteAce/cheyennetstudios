@@ -676,6 +676,32 @@
   width: 100%;
 }
 
+/* -- showreel stying ------------------------------------------------------------------------------*/
+.showreel-type h1{
+  width: 220px;
+  border-right: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.showreel-animation{
+  animation: showwriter 4s steps(25) 1s 1 normal both,
+  blink 400ms steps(25) infinite normal;
+}
+
+@keyframes showwriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 220px;
+  }
+}
+.showreelvid{
+  margin-left: 23%;
+}
+
+
 /* -- desktop ------------------------------------------------------------------------------*/
 @media only screen and (max-width:2560px){
 
@@ -1420,6 +1446,11 @@ margin-left: 200px;
 .zinepics{
 width: 100%;
 }
+
+.showreelvid{
+  margin-left: 19%;
+}
+
 }
   
 /* -- laptop ------------------------------------------------------------------------------*/
@@ -1581,6 +1612,11 @@ iframe{
 .box10 .myer-vid{
   margin-left: 0px;
 }
+
+.showreelvid{
+  margin-left: 6%;
+}
+
 }
 
 /* -- tablet ------------------------------------------------------------------------------*/
@@ -2041,6 +2077,11 @@ margin-left: 200px;
 .zinepics{
 width: 100%;
 } 
+
+.showreelvid{
+  margin-left: 9.5%;
+}
+
 }
 
 /* -- phone ------------------------------------------------------------------------------*/
@@ -2517,5 +2558,9 @@ width: 100%;
 .zinepics{
   width: 100%;
 } 
+
+.showreelvid{
+  margin-left: 15%;
+}
 
 }
