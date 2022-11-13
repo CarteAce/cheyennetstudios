@@ -45,3 +45,16 @@ function projectMouse() {
   document.getElementById("walks-wags-weather-img").style.display = "none";
   document.getElementById("project-img").style.display = "inline";
 }
+
+
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
+});

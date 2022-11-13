@@ -222,6 +222,53 @@
 
 
 /* -- contact stying ------------------------------------------------------------------------------*/
+.modal {
+  padding: 1em;
+  max-width: 5wh;
+  border: 0;
+  box-shadow: 0 0 1em rgb(0 0 0 / .3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.modal img{
+  width: 200px;
+  margin-left: 19%;
+}
+
+.close-button{
+  width: 150px;
+  height: 50px;
+  background-color: #9FB57A;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-left: 25%;
+  border: 0;
+  cursor: pointer;
+}
+
+.open-button{
+  border: 0;
+  cursor: pointer;
+  background-color: white;
+}
+
+.modal p{
+  text-align: center;
+  margin-left: 15%;
+}
+
+.button:hover{
+  color: #9FB57A;
+}
+
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
 
 .icon{
   width: 18px;
